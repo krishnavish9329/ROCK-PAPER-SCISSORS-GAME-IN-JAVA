@@ -1,7 +1,7 @@
-# ROCK-PAPER-SCISSOR-GAME-IN-JAVA
-ROCK PAPER SCISSOR GAME USING JAVA
+# ROCK-PAPER-SCISSORS-GAME-IN-JAVA
+ROCK PAPER SCISSORS GAME USING JAVA
 
-/*This is ROCK PAPER SCISSOR GAME 
+/*This is ROCK PAPER SCISSORS GAME 
  * ROCK PAPER SCISSOR GAME USING JAVA
  */
 
@@ -56,7 +56,7 @@ class resultOfGame extends random_number
             else 
             if(com=='S')
             {System.out.println("Win");
-            System.out.println("you choose 'ROCK' & computer choose 'SCISSOR' then you Win the Game");
+            System.out.println("you choose 'ROCK' & computer choose 'SCISSORS' then you Win the Game");
             System.out.println("");
             }
         }
@@ -76,7 +76,7 @@ class resultOfGame extends random_number
             else 
             if(com=='S')
             {System.out.println("Loss");
-            System.out.println("you choose 'PAPER' & computer choose 'SCISSOR' then you Loss the Game");
+            System.out.println("you choose 'PAPER' & computer choose 'SCISSORS' then you Loss the Game");
             System.out.println("");
             }
 
@@ -85,19 +85,19 @@ class resultOfGame extends random_number
         {
             if(com=='R')
             {System.out.println("Loss");
-            System.out.println("you choose 'SCISSOR' & computer choose 'ROCK' then you Loss the Game");
+            System.out.println("you choose 'SCISSORS' & computer choose 'ROCK' then you Loss the Game");
             System.out.println("");
             }
             else
             if(com=='P')
             {System.out.println("Win");
-            System.out.println("you choose 'SCISSOR' & computer choose 'PAPER' then you Win the Game");
+            System.out.println("you choose 'SCISSORS' & computer choose 'PAPER' then you Win the Game");
             System.out.println("");
             }
             else 
             if(com=='S')
             {System.out.println("Drow");
-            System.out.println("you choose 'SCISSOR' & computer choose 'SCISSOR' then you Drow the Game");
+            System.out.println("you choose 'SCISSORS' & computer choose 'SCISSORS' then you Drow the Game");
             System.out.println("");
             }
         }
